@@ -1,0 +1,98 @@
+[{
+    "_id": ObjectId("64ad6b91fe6a6039da8f268f"),
+    "id": "1",
+    "name": "Bakersfield California Temple",
+    "oficialUrl": "https://www.churchofjesuschrist.org/temples/details/bakersfield-california-temple?lang=eng",
+    "url": "https://churchofjesuschristtemples.org/bakersfield-california-temple/",
+    "description": "Planning and approval phase; site location unknown; groundbreaking not announced",
+    "dedicated": "announced"
+    
+}, {
+    "_id": ObjectId("64ad6b91fe6a6039da8f2690"),
+    "id": "2",
+    "name": "Feather River California Temple",
+    "oficialUrl": "https://www.churchofjesuschrist.org/temples/details/feather-river-california-temple?lang=eng",
+    "url": "https://churchofjesuschristtemples.org/feather-river-california-temple/",
+    "description": "Planning and approval phase; site location unknown; groundbreaking not announced",
+    "dedicated": "October 8, 2023"
+}, {
+    "_id": ObjectId("64ad6b91fe6a6039da8f2691"),
+    "id": "3",
+    "name": "Fresno California Temple",
+    "oficialUrl": "https://www.churchofjesuschrist.org/temples/details/fresno-california-temple?lang=eng",
+    "url": "https://churchofjesuschristtemples.org/fresno-california-temple/",
+    "description": "78th dedicated temple in operation",
+    "dedicated": "April 9, 2000"
+}, {
+    "_id": ObjectId("64ad6b91fe6a6039da8f2692"),
+    "id": "4",
+    "name": "Los Angeles California Temple",
+    "oficialUrl": "https://www.churchofjesuschrist.org/temples/details/los-angeles-california-temple?lang=eng",
+    "url": "https://churchofjesuschristtemples.org/bakersfield-california-temple/",
+    "description": "10th dedicated temple in operation",
+    "dedicated": "March 11-14, 1956"
+}, {
+    "_id": ObjectId("64ad6b91fe6a6039da8f2693"),
+    "id": "5",
+    "name": "Modesto California Temple",
+    "oficialUrl": "https://www.churchofjesuschrist.org/temples/details/modesto-california-temple?lang=eng",
+    "url": "https://churchofjesuschristtemples.org/modesto-california-temple/",
+    "description": "Planning and approval phase; conditional use permit granted on March 23, 2023.",
+    "dedicated": "announced"
+}, {
+    "_id": ObjectId("64ad6b91fe6a6039da8f2694"),    
+    "id": "6",
+    "name": "Newport Beach California Temple",
+    "oficialUrl": "https://www.churchofjesuschrist.org/temples/details/newport-beach-california-temple?lang=eng",
+    "url": "https://churchofjesuschristtemples.org/newport-beach-california-temple/",
+    "description": "122nd dedicated temple in operation",
+    "dedicated": "August 28, 2005"
+}, {
+    "_id": ObjectId("64ad6b91fe6a6039da8f2695"),
+    "id": "7",
+    "name": "Oakland California Temple",
+    "oficialUrl": "https://www.churchofjesuschrist.org/temples/details/oakland-california-temple?lang=eng",
+    "url": "https://churchofjesuschristtemples.org/oakland-california-temple/",
+    "description": "13th dedicated temple in operation",
+    "dedicated": "November 17-19, 1964"
+}, {
+    "_id": ObjectId("64ad6b91fe6a6039da8f2696"),
+    "id": "8",
+    "name": "Redlands California Temple",
+    "oficialUrl": "https://www.churchofjesuschrist.org/temples/details/redlands-california-temple?lang=eng",
+    "url": "https://churchofjesuschristtemples.org/redlands-california-temple/",
+    "description": "116th dedicated temple in operation",
+    "dedicated": "September 14, 2003"
+}, {
+    "_id": ObjectId("64ad6b91fe6a6039da8f2697"),
+    "id": "9",
+    "name": "Sacramento California Temple",
+    "oficialUrl": "https://www.churchofjesuschrist.org/temples/details/sacramento-california-temple?lang=eng",
+    "url": "https://churchofjesuschristtemples.org/sacramento-california-temple/",
+    "description": "123rd dedicated temple in operation",
+    "dedicated": "September 3, 2006"
+}, {
+    "_id": ObjectId("64ad6b91fe6a6039da8f2698"),
+    "id": "10",
+    "name": "San Diego California Temple",
+    "oficialUrl": "https://www.churchofjesuschrist.org/temples/details/san-diego-california-temple?lang=eng",
+    "url": "https://churchofjesuschristtemples.org/san-diego-california-temple/",
+    "description": "45th dedicated temple in operation; scheduled to close for renovation on 29 July 2023",
+    "dedicated": "April 25-30, 1993"
+}, {
+    "_id": ObjectId("64ad6b91fe6a6039da8f2699"),
+    "id": "11",
+    "name": "San Jose California Temple",
+    "oficialUrl": "https://www.churchofjesuschrist.org/temples/details/san-jose-california-temple?lang=eng",
+    "url": "https://churchofjesuschristtemples.org/san-jose-california-temple/",
+    "description": "Planning and approval phase; site location unknown; groundbreaking not announced",
+    "dedicated": "announced"
+}, {
+    "_id": ObjectId("64ad6b91fe6a6039da8f269a"),
+    "id": "12",
+    "name": "Yorba Linda California Temple",
+    "oficialUrl": "https://www.churchofjesuschrist.org/temples/details/yorba-linda-california-temple?lang=eng",
+    "url": "https://churchofjesuschristtemples.org/yorba-linda-california-temple/",
+    "description": "Excavation underway; construction estimated to be completed in mid-2026",
+    "dedicated":"Under Contruction"
+}]

@@ -1,0 +1,16 @@
+img {
+    max-height: 8px;
+}
+
+/*selectors */
+.heading {
+    font-size: 25px;
+}
+.margin-top {
+    margin-top: 10px;
+}
+.contact-list{
+    align-content: center;
+    margin-right: -9px;
+    margin-left: 2px;;
+}

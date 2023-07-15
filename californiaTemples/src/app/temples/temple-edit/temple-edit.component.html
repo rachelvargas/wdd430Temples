@@ -1,0 +1,113 @@
+<div class="panel panel-default">
+    <div class="panel-body">
+      <form (ngSubmit)="onSubmit(f)" #f="ngForm"  id="temple-edit">
+        <div class="row">
+          <div class="col-sm-12 form-group">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="form-control required"
+              size="120"
+              max="120"
+              [ngModel]="temple?.name"
+              #name="ngModel"
+              required/>
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="col-sm-12 form-group">
+            <label for="address">Address:</label>
+            <input
+              type="address"
+              id="address"
+              name="address"
+              class="form-control required"
+              size="120"
+              max="255"              
+              [ngModel]="temple?.address"
+              #address="ngModel"
+              pattern="^(?=\S*\s)(?=\P{L}*\p{L})(?=\D*\d)[\p{L}\d\s',.#/-]*$"
+              required/>              
+          </div>
+          <div class="alert alert-danger" *ngIf="!address.valid && address.touched">Enter a valid address</div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12 form-group">
+            <label for="phone">Phone:</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              class="form-control invalid"
+              size="150"
+              max="255"
+              [ngModel]="temple?.phone"
+              #phone="ngModel"
+              pattern="\D*([2-9]\d{2})(\D*)([2-9]\d{2})(\D*)(\d{4})\D*">
+              
+              <div *ngIf="!phone.valid && phone.touched">Enter a valid phone number</div>
+  
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="col-sm-12 form-group">
+            <label for="imageUrl">Image URL:</label>
+            <input
+              type="text"
+              id="imageUrl"
+              name="imageUrl"
+              class="form-control"
+              size="150"
+              max="255"
+              [ngModel]="temple?.imageUrl"
+              #imageUrl="ngModel">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="form-group">
+            <label for="groupList">Group Temples:</label>
+
+            <div class="row"
+                id="groupList"
+                style="min-height: 3rem;"
+                dnd-droppable [dropZones]="['templeGroup']"
+                (onDropSuccess)="addToGroup($event)">
+                 
+              <div *ngFor="let temple of groupTemples; let i = index">  
+                <californiaTemples-temple-item
+                class="col-sm-11"
+                [temple]="temple">                    
+                </californiaTemples-temple-item>
+                <button class="btn btn-danger col-sm-2 deleteButton" 
+                  (click)="onRemoveItem(i)">X</button>
+                </div>
+                <span class="dragMsg" *ngIf="groupTemples?.length < 1">
+                  Drag temples in group here</span>
+
+              </div>              
+            </div>  
+          </div>
+
+          <div class="row">
+            <div class="alert alert-danger" 
+            *ngIf="(name.invalid && name.touched) || (address.invalid && address.touched)">
+          The Name and address fields are required
+        </div>
+          </div>          
+  
+        <div class="row">
+          <div class="col-xs-12 btn-toolbar">
+            <button class="btn btn-success" type="submit" [disabled]="!f.valid">Save</button>
+            <button class="btn btn-primary" type="button" (click)="onCancel()">Cancel</button>
+          </div>
+        </div>
+  
+      </form>
+    </div>
+  </div>

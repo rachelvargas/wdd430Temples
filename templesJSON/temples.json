@@ -1,0 +1,136 @@
+[{
+        "id": "1",
+        "name": "Bakersfield California Temple",
+        "address": "Bakersfield, California, United States",
+        "phone": null,
+        "imageUrl": "../assets/images/bakersfield-temple-place.jpg",
+        "group": null
+        
+
+    }, {
+        "id": "2",
+        "name": "Feather River California Temple",
+        "address": "1470 Butte House Road Yuba City, California  95993 United State",
+        "phone": null,
+        "imageUrl":"../assets/images/feather-river-california-temple-2.jpg",
+        "group": null
+
+
+
+}, {
+        "id": "3",
+        "name": "Fresno California Temple",
+        "address": "bakersfield, California, United States",
+        "phone": "(+1) 559-437-9451",
+        "imageUrl":"../assets/images/bakersfield-temple-place.jpg",
+        "group": null
+        
+
+}, {
+        "id": "4",
+        "name": "Los Angeles California Temple",
+        "address": "10777 Santa Monica Boulevard Los Angeles, California  90025-4718 United States",
+        "phone": "(+1) 310-474-5569",
+        "imageUrl":"../assets/images/los-angeles-california-temple.jpg",
+        "group": null
+        
+
+}, {
+        "id": "5",
+        "name": "Modesto California Temple",
+        "address": "Adjacent to 4300 Dale Road Modesto, California United States",
+        "phone": null,
+        "imageUrl":"../assets/images/modesto-california-temple.jpg",
+        "group": null
+        
+
+}, {
+        "id": "6",
+        "name": "Newport Beach California Temple",
+        "address": "2300 Bonita Canyon Drive Newport Beach, California  92660-9118",
+        "phone": "(+1) 949-644-1820",
+        "imageUrl":"../assets/images/newport_beach_temple.jpeg",
+        "group": null
+        
+
+}, {
+        "id": "7",
+        "name": "Oakland California Temple",
+        "address": "4770 Lincoln Avenue Oakland, California  94602-2535 United States",
+        "phone": "(+1) 510-531-3200",
+        "imageUrl":"../assets/images/oakland-california-temple.jpg",
+        "group": null
+        
+
+}, {
+        "id": "8",
+        "name": "Redlands California Temple",
+        "address": "1761 5th Avenue Redlands, California  92374 United States",
+        "phone": "(+1) 909-389-7369",
+        "imageUrl":"../assets/images/temple-maquet2.jpg",
+        "group": null
+        
+
+}, {
+        "id": "9",
+        "name": "Sacramento California Temple",
+        "address": "2110 California Circle Rancho Cordova, California  95742 United States",
+        "phone": "(+1) 916-357-5870",
+        "imageUrl":"../assets/images/sacramento-california.jpg",
+        "group": null
+        
+}, {
+        "id": "10",
+        "name": "San Diego California Temple",
+        "address": "7474 Charmant Drive San Diego, California  92122-5000 United States",
+        "phone": "(+1) 858-622-0991",
+        "imageUrl":"../assets/images/san-diego-california-temple.jpg",
+        "group": null
+        
+}, {
+        "id": "11",
+        "name": "San Jose California Temple",
+        "address": "San Jose, California, United States",
+        "phone": null,
+        "imageUrl":"../assets/images/temple-maquet.jpg",
+        "group": null
+        
+
+}, {
+        "id": "13", "name": "No Dedicated Yet", "address": "", "phone": "", "imageUrl": "", "group": [
+                {
+                        "id": "1",
+                        "name": "Bakersfield California Temple",
+                        "address": "Bakersfield, California, United States",
+                        "phone": null,    
+                        "imageUrl": "../assets/images/bakersfield-temple-place.jpg",
+                        "group": null
+                },
+                {
+                        "id": "5",
+                        "name": "Modesto California Temple",
+                        "address": "Adjacent to 4300 Dale Road Modesto, California United States",
+                        "phone": null,
+                        "imageUrl":"../assets/images/modesto-california-temple.jpg",
+                        "group": null      
+                },
+                {
+                        "id": "11",
+                        "name": "San Jose California Temple",
+                        "address": "San Jose, California, United States",
+                        "phone": null,
+                        "imageUrl":"../assets/images/temple-maquet.jpg",
+                        "group": null    
+                }
+        ]},
+
+
+{
+        "id": "12",
+        "name": "Yorba Linda California Temple",
+        "address": "17130 Bastanchury Road Yorba Linda, California United States",
+        "phone": null,
+        "imageUrl":"../assets/images/bakersfield-temple-place.jpg",
+        "group": null
+       
+}]
