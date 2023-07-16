@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const contactSchema = mongoose.Schema({
+const templeSchema = mongoose.Schema({
     id: { type: String, required: true },    
     name: { type: String, required: true },
     address: { type: String, required: true },
@@ -10,4 +10,4 @@ const contactSchema = mongoose.Schema({
     
 });
 
-module.exports = mongoose.model('Temple', contactSchema);
+module.exports = mongoose.model('Temple', templeSchema);
